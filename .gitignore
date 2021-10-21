@@ -1,0 +1,11 @@
+.DS_Store
+Thumbs.db
+/fsh-generated
+/input-cache
+/output
+/template
+/temp
+_gencontinuous.bat
+_genonce.bat
+_gencontinuous.sh
+_genonce.sh
