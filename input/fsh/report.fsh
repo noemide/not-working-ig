@@ -8,6 +8,5 @@ Title:          "Lungenfunktions-Befund"
 * result ^slicing.discriminator.path = "$this.resolve()"
 * result ^slicing.rules = #open
 
-* result contains gewicht 0..1 and groesse 0..1
-* result[gewicht] ^type.targetProfile = http://fhir.de/StructureDefinition/observation-de-vitalsign-koerpergewicht
-* result[groesse] ^type.targetProfile = http://fhir.de/StructureDefinition/observation-de-vitalsign-koerpergroesse
+* result contains geschlecht-geburt 0..1
+* result[geschlecht-geburt] ^type.targetProfile = https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/sex-assigned-at-birth

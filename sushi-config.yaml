@@ -11,9 +11,9 @@ fhirVersion: 4.0.1
 copyrightYear: 2021+
 releaseLabel: ci-build
 dependencies:
-  de.basisprofil.r4:
-    uri: https://ig.fhir.de/basisprofile-de/1.0.0/
-    version: 1.0.0
+  de.gecco:
+    uri:  https://www.netzwerk-universitaetsmedizin.de/fhir/ImplementationGuide/germancoronaconsensusdataset-implementationguide
+    version: 1.0.5
 
 # ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
 # │  To use a provided input/includes/menu.xml file, delete the "menu" property below.             │
